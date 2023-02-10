@@ -1,5 +1,13 @@
 *{
     margin: O;
     padding: 0;
-    
+
+}
+
+.sect_accueil{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows:repeat(3,1fr);
+background-color: darkcyan;
+gap: 1.6em;
 }
