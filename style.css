@@ -22,6 +22,33 @@ main{
   margin: auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+ul { display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+ul a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+  }
+
+
+
+  section{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 
 
@@ -32,12 +59,13 @@ main{
   border: 1px solid black;
   padding: 0% 20%;
   height: auto;
+}
   
-       ul { display: flex;}
+   
   
   
 
-}
+
 
 
 .sect-accueil h3,
