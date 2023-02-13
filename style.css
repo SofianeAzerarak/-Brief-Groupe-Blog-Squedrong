@@ -139,3 +139,43 @@ ul {
     background: #000507;  
     color: white;  
   }  
+
+  .logo{
+    width: 200px;
+        }
+    
+    /* .logo img{
+    float: left; */
+    /* margin-left: 0px 0px 0px 30px;
+    width: 150px;
+    height: 38px; 
+    } */ 
+
+  input[type=text],
+      select,
+      textarea {
+        width: 50%;
+        padding: 8px;
+        border: 1px solid white;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 8px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type=submit] {
+        background-color: #f25f52;
+        color: #ffffff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover {
+        background-color: #f25f52;
+      }
+      .container {
+        border-radius: 8px;
+        background-color: #e6e6e6;
+        padding: 15px;
+      }
