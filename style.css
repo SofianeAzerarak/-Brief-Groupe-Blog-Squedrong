@@ -1,20 +1,4 @@
-body{ 
-    margin: 0;
-    padding: 0;
-    }
 
-.sect_accueil{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-grid-template-rows:repeat(3,1fr);
-
-
-text-align: center;
-
-
-
-
-}
 
 
 
