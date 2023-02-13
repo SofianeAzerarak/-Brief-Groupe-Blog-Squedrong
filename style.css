@@ -17,7 +17,7 @@ body{
 
 main{
   border: 1px solid black;
-  width: 1920px;
+  width: 100%;
   padding: 50px;
   margin: auto;
 }
@@ -70,18 +70,58 @@ ul {
 
 }
 
-section{
+.sect-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
     
 }
+.sect-header img{
+    width: 15%;
+    
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #17a8d8;
-    outline: none;
 }
+
+.sect-header h1{
+    text-align: start;
+    
+}
+.sect-header h2{
+    text-align: start;
+   
+}
+
+.sect-header p{
+    text-align: start;
+    margin-top: 2em ;
+    margin-bottom: 2em
+
+}
+
+
+
+.fa { 
+    padding:10px 20px;  
+    text-align: center; 
+    text-decoration: none;
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 100px; 
+    outline: none; 
+  }  
+
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+} 
+
+.fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+
+  .fa-medium {  
+    background: #000507;  
+    color: white;  
+  }  
