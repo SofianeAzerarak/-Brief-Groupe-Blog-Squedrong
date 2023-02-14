@@ -17,7 +17,7 @@ body{
   }
 
 .article-img{
-  margin: 0 auto;
+  margin: auto;
 }
     
   .sect-header h1{
@@ -28,8 +28,9 @@ h2{
     font-size: 30px;
     margin: 20px 0; 
 }
-h3{
-  margin: 20px 0; 
+h3,h2{
+  color: blue;
+  margin: 20px 0;
 }
 p{
   margin: auto;
