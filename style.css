@@ -5,20 +5,22 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
-
+ 
+h1,h3{
+  color: #d05270;
+}
 body{
     max-width: 100%;
     height: auto;
     margin:1em;
-  
-    box-shadow: 3px 3px 20px 6px;
+   box-shadow: 3px 3px 20px 6px;
   }
 
 .article-img{
   margin: 0 auto;
 }
     
-h1{
+  .sect-header h1{
     font-size: 40px;
     margin: 20px 0; 
 }
@@ -34,6 +36,14 @@ p{
 margin-bottom: 50px;
 
 
+    margin-bottom: 10px;
+}
+ .sect-header h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.sect-header p{
+  margin-bottom: 20px;
 }
 main{
     max-width: 1280px;
@@ -46,6 +56,7 @@ main{
     justify-content: space-between;
     max-width: 100%;
     margin: 0 10%;
+    margin-bottom: 2em;
     
     
     
@@ -125,7 +136,79 @@ main{
     
     
 }
-.sect-accueil img{
+.sect-accueil a img{
     width: 100%;
-    
+  
+    }
+
+figcaption a  {
+  color:#d05270;
+  position: relative;
+  display: inline-block;
+  
 }
+figcaption a:before{
+  position: absolute;
+    height: 1px;
+    width: 70%;
+    left: 0;
+    bottom: -1px;
+    background: #d05270;
+    display: block;
+    content: "";
+
+}
+
+
+
+ 
+
+.sect-accueil img,
+.sect-accueil h5,
+.sect-accueil h3,
+.sect-accueil p{
+  margin-bottom:1rem ;
+}
+.sect-accueil article{
+  margin-bottom: 3em;
+}
+
+  .logo{
+    width: 200px;
+        }
+    
+    /* .logo img{
+    float: left; */
+    /* margin-left: 0px 0px 0px 30px;
+    width: 150px;
+    height: 38px; 
+    } */ 
+
+  input[type=text],
+      select,
+      textarea {
+        width: 50%;
+        padding: 8px;
+        border: 1px solid white;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 8px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type=submit] {
+        background-color: #f25f52;
+        color: #ffffff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover {
+        background-color: #f25f52;
+      }
+      .container {
+        border-radius: 8px;
+        background-color: #e6e6e6;
+        padding: 15px;
+      }
