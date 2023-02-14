@@ -14,13 +14,26 @@ body{
     box-shadow: 3px 3px 20px 6px;
   }
 
- 
+.article-img{
+  margin: 0 auto;
+}
     
 h1{
     font-size: 40px;
+    margin: 20px 0; 
 }
 h2{
     font-size: 30px;
+    margin: 20px 0; 
+}
+h3{
+  margin: 20px 0; 
+}
+p{
+  margin: auto;
+margin-bottom: 50px;
+
+
 }
 main{
     max-width: 1280px;
