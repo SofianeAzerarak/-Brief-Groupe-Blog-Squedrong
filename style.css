@@ -219,12 +219,13 @@ figcaption a:before{
     } */ 
 
     /* =========================================== CSS CONTACT ================================================= */
-* {
+
+    * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Poppins", sans-serif; */
 }
+
 /* ========================================== propriéter bloc contact ===================================== */
 .container {
   min-height: 100vh;
@@ -264,6 +265,7 @@ form {
 }
 
 /* =========================================effet texte & commentaire ====================================== */
+
 .input {
   width: 100%;
   outline: none;
@@ -274,8 +276,7 @@ form {
   font-weight: 500;
   font-size: 0.95rem;
   letter-spacing: 1px;
-  /* border-radius: 25px; */
-  /* transition: 0.3s; */
+  transition: 0.3s;
 }
 
 .title {
@@ -288,7 +289,6 @@ form {
 textarea.input {
   padding: 0.8rem 1.2rem;
   min-height: 150px;
-  /* border-radius: 22px; */
   resize: none;
   overflow-y: auto;
 }
@@ -343,13 +343,13 @@ textarea.input {
 .btn {
   padding: 0.6rem 1.3rem;
   background-color: #fff;
-  /* border: 2px solid #9c6db6; */
+  border: 2px solid #ffffff;
   font-size: 0.95rem;
   line-height: 1;
   color: #9c6db6;
   font-weight: 600;
   cursor: pointer;
-  /* transition: 0.3s; */
+  transition: 0.3s;
   margin: 0;
   outline: none;
 }
