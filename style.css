@@ -190,11 +190,7 @@ figcaption a:before{
     display: block;
     content: "";
 
-}
-
-
-
- 
+} 
 
 .sect-accueil img,
 .sect-accueil h5,
@@ -210,21 +206,7 @@ figcaption a:before{
     width: 200px;
     margin: auto;
         }
-    
-    /* .logo img{
-    float: left; */
-    /* margin-left: 0px 0px 0px 30px;
-    width: 150px;
-    height: 38px; 
-    } */ 
 
-    /* =========================================== CSS CONTACT ================================================= */
-
-    * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /* ========================================== propriéter bloc contact ===================================== */
 .container {
@@ -358,18 +340,41 @@ textarea.input {
   background-color: transparent;
   color: #fff;
 } 
+    /*============================================ css footer contact =================================================  */
 
-/* ========= span ========== */
-  
-.input-container span {
-  position: absolute;
-  top: 0;
-  left: 25px;
-  transform: translateY(-50%);
-  font-size: 0.8rem;
-  padding: 0 0.4rem;
-  color: transparent;
-  pointer-events: none;
-  z-index: 500;
-}
-    
+    .footer-content
+	 	{
+	 		background-color: #d05270;
+      box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+	 	}
+	 	
+
+	 	.social
+	 	{
+	 		text-align: center;
+	 		padding-top: 20px;
+	 		padding-bottom: 20px;
+	 	}
+
+	 	.social a 
+	 	{
+	 		font-size: 20px;
+	 		display: inline-block;
+	 		border: 1px solid beige;
+	 		color: whitesmoke;
+	 		width: 50px;
+	 		padding: 10px;
+	 		border-radius: 8px;
+	 	}
+
+	 	.social a:hover
+	 	{
+	 		background-color: #1da1f2;
+	 	}
+
+	 	.copy-right
+	 	{
+	 		text-align: center;
+	 		padding-bottom: 30px;
+	 		color: whitesmoke;
+	 	}
