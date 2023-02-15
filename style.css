@@ -1,213 +1,193 @@
+/*----------------Proprietés générales--------------------*/
 *{
     margin:0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
  h1 {
   font-family: 'Abril Fatface', cursive;
-
-
- }
+}
 h1,h3{
   color: #d05270;
-}
-body{
-    max-width: 100%;
-    height: auto;
-    margin:1em;
-   box-shadow: 3px 3px 20px 6px;
-  }
-
-  main{
-    max-width: 1280px;
-    margin: auto;
-    
-}
-.article-img{
-  margin: auto;
-}
-    
-  .sect-header h1{
-    font-size: 40px;
-    
-    
-}
-h2{
-    font-size: 30px;
-    margin: 20px 0; 
 }
 h3,h2{
   color: blue;
   margin: 20px 0;
 }
-p{
-  margin: auto;
-margin-bottom: 50px;
-margin-bottom: 10px;
-}
-.sect-header h1{
- font-weight: bold;
- margin-bottom: 10px;
- 
-}
- .sect-header h2{
-    font-size: 35px;
-    margin-bottom: 30px;
-}
-.sect-header p{
-  margin-bottom: 20px;
-}
-
-  
-  nav{
-    display:flex;
-    justify-content: space-between;
+body{
     max-width: 100%;
-    margin: 0 10%;
-    margin-bottom: 2em;
-    }
-
-  ul{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+    height: auto;
+    margin:1em;
+    box-shadow: 3px 3px 20px 6px;
   }
-  
-  .sect-header{
-    display:flex;
-    justify-content: space-around;
-    max-width: 100%;
-    margin: 0% 10%;
-    padding-left: 30px;
-    gap: 10%;
-    margin-bottom: 10%;
-    }
-    .sect-header div{
-      margin: auto;
-      width: 65%;
-      }
 
-  .sect-header img{
-    width: 35%;
+  main{
+    max-width: 80%;
     margin: auto;
-    margin-bottom: 50px;
   }
-  .sect-header h2,
-  .sect-accueil h3{
-    color: black;
+    
+header{
+  width: 90%;
+  margin: auto;
+
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  max-width:100%;
+  margin-bottom: 2em;
+  margin-right: 15%;
+  
+  
 
   }
 
+ul{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+/*---------------- Fin Proprietés générales----------------*/
 
-  .button {
-    border: none;
-    color: rgb(255, 255, 255);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
+/* --------------------PAGE ACCUEIL SECTION HEADER */
+.sect-header{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 10%; 
+  }
+
+  .sect-header div {
+    width:30em;
+    margin: 0 0 0 2.7em;
+  }
+  
+  .sect-header img{
+    width: 25rem;
+    margin: auto;
+  }
+
+   .sect-header h1{
+    margin: 0;
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+    
+  }
+  .sect-header h2{
+    margin: 0;
+    margin: auto;
+    font-size: 2em;
+    margin-bottom: 20px; 
+  
+  }
+ 
+  .sect-header p{
+    margin: auto;
+    margin-bottom: 2em;
+  }
+
+  .fa { 
+    display: flex;
+      padding: 15px 0px;
+      width: 32%; 
+      outline: none; 
+      text-align: center;
+      
+      
+      
+    }  
+  .fa span {
+    font-size: 10px;
+    margin-left: 15px;
+    
+    
+  }
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  } 
+  
+  .fa-linkedin {  
+      background: #007bb5;  
+      color: white;  
+    }  
+  
+    .fa-medium {  
+      background: #000507;  
+      color: white;  
+    }
+  
+  
+  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  } 
+  
+  .fa-linkedin {  
+      background: #007bb5;  
+      color: white;  
+    }  
+  
+    .fa-medium {  
+      background: #000507;  
+      color: white;  
+    }  
+    /* -------------------- FIN PAGE ACCUEIL SECTION HEADER------------ */
+
+    /* -----------------------DEBUT GRID ARTICLE----------------------- */
+  
+    .sect-accueil{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(3,1fr) ;
+      max-width: 100%;
+      gap: 1em;
+      margin-right: 18em;
+      margin-left: 7.5em;
+    
+      
+      
+  }
+  .sect-accueil img{
+      width: 100%;
+    
+      }
+      .sect-accueil h3{
+        color:#d05270 ;
+      }
+  
+  figcaption a  {
+    color:#d05270;
+    position: relative;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  
-  .button1 {
-    background-color: #1da1f2 ;
-    color: rgb(255, 255, 255);
-  }
-  
-  
-  .button2 {
-    background-color: #007bb5;
-    color: white;
-  }
-
-  .button3 {
-    background-color: #000000;
-    color: white;
-  }
-  
-
-.fa { 
-    padding:10px 20px;  
-    text-align: center; 
-    text-decoration: none;
-    margin: 5px 2px;  
-    font-size: 30px;  
-    width: 32%; 
-    outline: none; 
-    font-size: 5px;
-  }  
-
-.fa-twitter {  
-  background: #55ACEE;  
-  color: white;  
-} 
-
-.fa-linkedin {  
-    background: #007bb5;  
-    color: white;  
-  }  
-
-  .fa-medium {  
-    background: #000507;  
-    color: white;  
-  }
-
-
-
-.fa-twitter {  
-  background: #55ACEE;  
-  color: white;  
-} 
-
-.fa-linkedin {  
-    background: #007bb5;  
-    color: white;  
-  }  
-
-  .fa-medium {  
-    background: #000507;  
-    color: white;  
-  }  
-.sect-accueil{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,1fr) ;
-    max-width: 100%;
-    margin: 0 10%;
-    gap: 1rem;
     
-    
-}
-.sect-accueil img{
-    width: 100%;
+  }
+  figcaption a:before{
+    position: absolute;
+      height: 1px;
+      width: 70%;
+      left: 0;
+      bottom: -1px;
+      background: #d05270;
+      display: block;
+      content: "";
   
-    }
-    .sect-accueil h3{
-      color:#d05270 ;
-    }
-
-figcaption a  {
-  color:#d05270;
-  position: relative;
-  display: inline-block;
+  }
   
-}
-figcaption a:before{
-  position: absolute;
-    height: 1px;
-    width: 70%;
-    left: 0;
-    bottom: -1px;
-    background: #d05270;
-    display: block;
-    content: "";
-
-}
-
+  
+  
+   
+  
+  .sect-accueil img,
+  .sect-accueil h5,
+  .sect-accueil h3,
+  .sect-accueil p{
+    margin-bottom:2rem;
+  }
+ 
 
 
  
@@ -216,7 +196,11 @@ figcaption a:before{
 .sect-accueil h5,
 .sect-accueil h3,
 .sect-accueil p{
-  margin-bottom:1rem ;
+  margin: auto;
+  margin-bottom:1rem;
+}
+.sect-accueil img{
+  margin-bottom: 0.5em;
 }
 .sect-accueil article{
   margin-bottom: 3em;
@@ -227,21 +211,18 @@ figcaption a:before{
     margin: auto;
         }
     
-    /* .logo img{
-    float: left; */
-    /* margin-left: 0px 0px 0px 30px;
-    width: 150px;
-    height: 38px; 
-    } */ 
+  
 
     /* =========================================== CSS CONTACT ================================================= */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+  
+
+  
+  
   /* font-family: "Poppins", sans-serif; */
-}
+
 /* ========================================== propriéter bloc contact ===================================== */
+
 .container {
   min-height: 100vh;
   width: 100%;
@@ -251,6 +232,7 @@ figcaption a:before{
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  
 }
 
 form {
@@ -388,10 +370,55 @@ textarea.input {
   pointer-events: none;
   z-index: 500;
 }
-/*------------- Page a propos-----------------------*/
+/*------------- PAGE A PROPOS-----------------------*/
 .squedrong{
   display: flex;
-  justify-content: center;
-  width: 100%;
+  margin: auto;
+  width: 75%;
+  margin-bottom: 3em;
+  gap: 1em;
   
 }
+ #squedrong  {
+  margin-bottom: 3em;
+  text-align: center;
+}
+.squedrong :nth-child(1){
+  width: 100%;
+}
+.squedrong :nth-child(2){
+  width: 100%;
+}
+.squedrong p {
+  margin: 0;
+  margin-bottom:1em ;
+}
+#squedrong-like{
+  text-align: center;
+}
+.squedrong-like{
+  display: grid;
+  grid-template-columns:repeat(2,1fr) ;
+  grid-template-rows:repeat(4,1fr) ;
+  width: 75%;
+  text-align: justify;
+  gap:  1em;
+  margin: auto;
+  }
+
+
+ .squedrong-like img{
+width: 100%;
+margin: auto;
+ }
+
+ .squedrong-like p {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+ }
+ .squedrong-like h3 {
+  text-align: center;
+  color: black;
+ }
+
