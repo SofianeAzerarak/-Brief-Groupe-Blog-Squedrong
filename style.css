@@ -18,28 +18,30 @@ h3,h2{
   margin: 20px 0;
 }
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 100%;
     height: auto;
     margin:1em;
     box-shadow: 3px 3px 20px 6px;
+    margin: auto;
   }
 
   main{
-    max-width: 80%;
+    max-width: 60%;
     margin: auto;
   }
     
-header{
-  width: 90%;
-  margin: auto;
 
-}
+
+
 nav{
   display:flex;
   justify-content: space-between;
   max-width:100%;
   margin-bottom: 2em;
-  margin-right: 15%;
+  
   
   
 
@@ -49,6 +51,7 @@ ul{
   display: flex;
   align-items: center;
   gap: 1rem;
+  
 }
 /*---------------- Fin Proprietés générales----------------*/
 
@@ -57,34 +60,35 @@ ul{
   display:flex;
   justify-content: space-between;
   margin-bottom: 10%; 
+  gap:6rem; 
   }
 
   .sect-header div {
-    width:30em;
-    margin: 0 0 0 2.7em;
+    width:70%;
+    
   }
   
   .sect-header img{
-    width: 25rem;
-    margin: auto;
+    width: 45%;
+    
   }
 
    .sect-header h1{
     margin: 0;
-    font-size: 2.7rem;
+    font-size: 3rem;
     margin-bottom: 10px;
     
   }
   .sect-header h2{
     margin: 0;
-    margin: auto;
+    color: black;
     font-size: 2em;
     margin-bottom: 20px; 
   
   }
  
   .sect-header p{
-    margin: auto;
+    
     margin-bottom: 2em;
   }
 
@@ -145,8 +149,7 @@ ul{
       grid-template-rows: repeat(3,1fr) ;
       max-width: 100%;
       gap: 1em;
-      margin-right: 18em;
-      margin-left: 7.5em;
+      
     
       
       
