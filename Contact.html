@@ -35,7 +35,7 @@
             <li><a href="Contact.html">CONTACT</a></li>
           </ul>
         </nav>
-      </header class="contact-box">
+      </header>
       <div class="container">
         <div class="big-circle"></div>
         <div class="form">
@@ -71,6 +71,7 @@
                   class="input"
                   placeholder="Fulle name"
                   value=""
+                  id="name"
                   required
                 />
                 <label for="name"></label>
@@ -94,13 +95,14 @@
                   class="input"
                   placeholder="Phone"
                   value=""
+                  id="phone"
                   required
                 />
-                <label for="Phone"></label>
+                <label for="phone"></label>
               </div>
               <div class="input-container textarea">
-                <textarea name="message" class="input" placeholder="Message"></textarea>
-                <label for="Message"></label>
+                <textarea name="message" class="input" id="message" placeholder="Message"></textarea>
+                <label for="message"></label>
               </div>
               <input type="submit" value="Send" class="btn" />
             </form>
