@@ -219,7 +219,6 @@ ul{
     /* =========================================== CSS CONTACT ================================================= */
 
   
-
   
   
   /* font-family: "Poppins", sans-serif; */
@@ -410,7 +409,7 @@ textarea.input {
   display: grid;
   grid-template-columns:repeat(2,1fr) ;
   grid-template-rows:repeat(4,1fr) ;
-  width: 75%;
+  width: 100%;
   text-align: justify;
   gap:  1em;
   margin: auto;
