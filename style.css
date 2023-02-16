@@ -14,9 +14,10 @@ h1,h3{
   color: #d05270;
 }
 h3,h2{
-  color: blue;
+  color: #491faa;
   margin: 20px 0;
 }
+
 body{
     display: flex;
     justify-content: center;
@@ -61,6 +62,7 @@ ul{
   justify-content: space-between;
   margin-bottom: 10%; 
   gap:6rem; 
+  
   }
 
   .sect-header div {
@@ -77,6 +79,7 @@ ul{
     margin: 0;
     font-size: 3rem;
     margin-bottom: 10px;
+    font-weight: bold;
     
   }
   .sect-header h2{
@@ -461,8 +464,66 @@ margin: auto;
 
     .img-cv {
       display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+      justify-content: center;
+      align-items: center;
+     margin: auto;
   }
- 
+
+  .art-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+   }
+
+   .art-img img {
+    margin-bottom: 3em ;
+   }
+   .art-img h1 {
+    margin-bottom: 1em;
+   }
+   .art-img p {
+    margin-bottom: 1em;
+   }
+  
+    .art-img :nth-last-child(1) {
+    margin-bottom: 8em;
+    }
+
+    .sect-footer{
+      display:flex;
+      justify-content: space-between;
+      margin-bottom: 10%; 
+      gap:6rem; 
+      
+      }
+    
+      .sect-footer div {
+        width:70%;
+        
+      }
+      
+      .sect-footer img{
+        width: 45%;
+        
+      }
+    
+       .sect-footer h1{
+        margin: 0;
+        font-size: 3rem;
+        margin-bottom: 10px;
+        font-weight: bold;
+        
+      }
+      .sect-footer h2{
+        margin: 0;
+        color:#d05270;
+        font-size: 2em;
+        margin-bottom: 20px; 
+      
+      }
+     
+      .sect-footer p{
+        
+        margin-bottom: 2em;
+      }
