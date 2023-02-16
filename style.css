@@ -474,6 +474,7 @@ margin: auto;
     flex-direction: column;
     width: 100%;
     margin: auto;
+    text-align: justify;
    }
 
    .art-img img {
