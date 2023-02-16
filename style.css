@@ -29,7 +29,7 @@ body{
   }
 
   main{
-    max-width: 60%;
+    max-width: 50%;
     margin: auto;
   }
     
@@ -376,15 +376,16 @@ textarea.input {
 .squedrong{
   display: flex;
   margin: auto;
-  width: 75%;
+  width: 100%;
   margin-bottom: 3em;
-  gap: 1em;
+  gap: 2em;
   
 }
  #squedrong  {
   margin-bottom: 3em;
   text-align: center;
 }
+
 .squedrong :nth-child(1){
   width: 100%;
 }
@@ -412,6 +413,9 @@ textarea.input {
  .squedrong-like img{
 width: 100%;
 margin: auto;
+ }
+ .squedrong-like div {
+  width: 100%;
  }
 
  .squedrong-like p {
@@ -454,3 +458,11 @@ margin: auto;
 	 		padding-bottom: 30px;
 	 		color: whitesmoke;
 	 	}
+
+    .img-cv {
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+ 
