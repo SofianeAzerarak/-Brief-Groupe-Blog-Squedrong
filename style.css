@@ -216,13 +216,6 @@ ul{
     
   
 
-    /* =========================================== CSS CONTACT ================================================= */
-
-  
-  
-  
-  /* font-family: "Poppins", sans-serif; */
-
 /* ========================================== propriéter bloc contact ===================================== */
 
 .container {
@@ -361,7 +354,7 @@ textarea.input {
 
     .footer-content
 	 	{
-	 		background-color: #d05270;
+	 		background-color: #e1466f;
       box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
 	 	}
 	 	
